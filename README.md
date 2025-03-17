@@ -1,9 +1,9 @@
 ![PyTorch Logo](https://github.com/pytorch/pytorch/raw/main/docs/source/_static/img/pytorch-logo-dark.png)
 
-# Practical-PyTorch-by-CampusX
+# Practical PyTorch by CampusX ✅
 
 
-# Neural Network Training Process
+## Neural Network Training Process
 - **Forward Pass:**
 Compute the output of the neural network given an input.
 - **Calculate Loss:** 
@@ -15,7 +15,7 @@ Adjust the parameters using an optimization algorithm (e.g., gradient descent) t
 
 
 
-### Forward Pass Computation:
+## Forward Pass Computation:
 
 1. **Linear Transformation:**
    `z = w * x + b`
@@ -25,3 +25,17 @@ Adjust the parameters using an optimization algorithm (e.g., gradient descent) t
 
 3. **Loss Function (Binary Cross-Entropy Loss):**
    `L = -(y_target * log(y_pred) + (1 - y_target) * log(1 - y_pred))`
+
+
+## PyTorch Training Pipeline
+
+1. **Load the dataset**
+2. **Basic preprocessing** 
+3. **Training Process**
+   - **Create the model**
+   - **Forward pass**
+   - **Loss calculation**
+   - **Backpropagation**
+   - **Parameters update**
+4. **Model evaluation**
+
